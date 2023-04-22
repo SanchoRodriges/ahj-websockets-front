@@ -9,7 +9,7 @@ class Chat {
   }
 
   ws() {
-    const ws = new WebSocket("ws://ahj-websockets-server.onrender.com");
+    const ws = new WebSocket("wss://ahj-websockets-server.onrender.com");
 
     ws.addEventListener("open", (e) => {
       console.log("open");
